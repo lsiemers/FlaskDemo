@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		VERSION = '1.0.0'
+		VERSION = '1.0.2'
 		DOCKERHUB_CREDENTIALS = credentials('docker-lukassiemers-credentials')
 	}
 	stages {
